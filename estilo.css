@@ -33,6 +33,20 @@ body{
     justify-content: center;
 }
 
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background: #151515;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #e62429;
+    border-radius: 10px;
+    border: solid 1px #151515;
+}
+
 .container{
     display: flex;
     flex-direction: column;
