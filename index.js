@@ -5,7 +5,7 @@ const apiKey = "6743e1cbd20007c611988f36076f2ad0";
 const md5 = "b1d69cebf11cebc9858cc290355d1993";
 let limite = 100;
 
-fetch(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&limit=${limite}`
+fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&limit=${limite}`
 ).then((response) => {
     return response.json();
 }).then((jsonParsed) =>{
